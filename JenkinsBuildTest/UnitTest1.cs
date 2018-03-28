@@ -10,7 +10,10 @@ namespace JenkinsBuildTest
         [Test]
         public void TestMethod1()
         {
-            Assert.IsTrue(true);
+
+            var x = true;
+
+            Assert.IsTrue(x);
 
         }
     }
